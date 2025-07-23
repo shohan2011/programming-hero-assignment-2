@@ -1,0 +1,73 @@
+/* styling navbar */
+.nav-bar ul li{
+ list-style: none;
+ color: black;
+}
+.nav-bar-logo{
+    font-size: 50px;
+    color: #E95A08;
+    text-decoration: none;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar{
+display: flex;
+gap: 590px;
+
+}
+.nav-bar-ul{
+    display: flex;
+    gap: 48px;
+
+}
+.nav-bar-ul-div{
+    display: flex;
+}
+.cart-icon{
+    margin: 0;
+}
+.nav-bar-home{
+font-size: 16px;
+font-weight: bold;
+}
+.nav-bar-shop{
+  font-size: 16px;
+  color: #8987A1;
+}
+.nav-bar-about-us{
+    color: #8987A1;
+    font-size: 16px;
+}
+.nav-bar-title{
+    margin-left: 150px;
+}
+.nav-bar-div{
+    display: flex;
+}
+/* styling banner */
+.banner-section{
+    display: flex;
+    width: 1140px;
+    height: 461px;
+    margin-top: 221px;
+    margin-left: 128px;
+}
+.banner{
+    width: 570px;
+    height: 299px;
+
+}
+span{
+color: #E95A08;
+
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+.banner-sub-title{
+    font-size: 22px;
+    color: rgb(163, 161, 161);
+}
