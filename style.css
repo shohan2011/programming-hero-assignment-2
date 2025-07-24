@@ -160,7 +160,6 @@ justify-content: center;
 }
 /* plants-lover-section-styling */
 .plants-lover-section{
-    /* width: 100%; */
     height: 80vh;
     margin-top: 210px;
     display: flex;
@@ -181,12 +180,11 @@ z-index: 0.4;
 .plants-lover-section-icon-img{
     width: 38vh;
     height: 38vh;
-/* margin-left: 50vh; */
+
 
 z-index: 1.2;
 position: relative;
-/* margin-bottom: -200px; */
-/* margin-left: 400px; */
+
 margin-right: -650px;
 margin-top: -1500px;
 margin-bottom: 400px;
@@ -208,4 +206,113 @@ margin-bottom: 400px;
    font-size: 22px;
    color: #8987A1 
    ;
+}
+/* styling deals section */
+.deals-section-info-title{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.deals-section-info-subtitle{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    color: #8987A1;
+}
+.deals-section-all-img-c-1-1{
+    background-image: url(./assets/deal-bloom.png);
+   height: 201px;
+   width: 367px;
+   margin-bottom: 25px;
+   border-radius: 14px;
+}
+.deals-section-all-img-c-1-1-title{
+font-size: 20px;
+font-weight: bold;
+color: white;
+}
+.deals-section-all-img-c-1-a{
+margin-left: 30px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+
+}
+ .deals-section-all-img-c-1-1-info{
+    height: 500px;
+    width: 350px;
+    /* justify-content: center;
+    align-items: center; */
+    vertical-align: middle;
+    display: inline-table;
+    margin-left: 80px;
+    margin-top: 50px;
+ }
+ .deals-section-all-img-c-1-2{
+background-image: url(./assets/deal-ana.png);
+height: 197px;
+width: 367px;
+border-radius: 14px;
+
+ }
+ .deals-section-all-img-c-1-2-title{
+    font-size: 20px;
+font-weight: bold;
+color: white;
+
+ }
+ .deals-section-all-img-c-1-2-info{
+height: 500px;
+width: 350px;
+justify-content: center;
+align-items: center;
+margin-left: 80px;
+margin-top: 50px;
+display: inline-table;
+ }
+ .deals-section-all-img-c-1-2-a{
+   margin-left: 30px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+ }
+ .deals-section-img-container{
+    width: 1140px;
+    height: 423px;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 150px;
+ }
+ .deals-section-last-img{
+    background-image: url(./assets/deal-zabo.png);
+    height: 423px;
+    width: 753px;
+    border-radius: 14px;
+ }
+ .deals-section-last-img-info{
+height: 500px;
+width: 350px;
+justify-content: center;
+align-items: center;
+margin-left: 280px;
+margin-top: 150px;
+display: inline-table;
+ }
+ .deals-section-last-img-title{
+       font-size: 20px;
+font-weight: bold;
+color: white;
+ }
+ .deals-section-last-img-a{
+       margin-left: 30px;
+font-size: 20px;
+font-weight: bold;
+color: white;
+}
+.deals-section-info{
+    margin-top: 133px;
 }
