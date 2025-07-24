@@ -316,3 +316,49 @@ color: white;
 .deals-section-info{
     margin-top: 133px;
 }
+/* styling join section */
+.join-section{
+    background-image: url(./assets/news-letter-bg.png);
+    height: 533px;
+    width: 1500px;
+    margin-top: 120px;
+}
+.join-section-input{
+
+    border: none;
+    width: 644px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.join-section-btn{
+
+    border: none;
+    width: 186px;
+    height: 53px;
+    background-color: #E95A08;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+.join-section-all-inputs{
+    gap: 0;
+    margin: 0;
+    display: flex;
+     margin-left: 305px;
+}
+.join-section-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+   margin-left: 250px;
+    
+}
+.join-section-text{
+    display: inline-table;
+    margin-top: 150px;
+}
