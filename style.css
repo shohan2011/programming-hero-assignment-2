@@ -1,3 +1,12 @@
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:  "wdth" 100;
+   
+}
+
 /* styling navbar */
 .nav-bar ul li{
  list-style: none;
@@ -55,8 +64,8 @@ font-weight: bold;
     margin-left: 128px;
 }
 .banner{
-    width: 570px;
-    height: 299px;
+    width: 76vh;
+    height: 40vh;
 
 }
 span{
@@ -70,4 +79,133 @@ color: #E95A08;
 .banner-sub-title{
     font-size: 22px;
     color: rgb(163, 161, 161);
+}
+/* styling plants section */
+.plants-section{
+    gap: 49px;
+}
+.plants-section-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.plants-section-sub-title{
+    color: rgb(152, 148, 148);
+    font-size: 22px;
+}
+.plants-title-subtitle{
+    width: 100%;
+    height: 138px;
+    justify-content: center;
+}
+.plants-section-title{
+    justify-content: center;
+    display: flex;
+}
+.plants-title-subtitle{
+       justify-content: center;
+    display: inline-block;
+}
+.plants-section-sub-title{
+    display: flex;
+    justify-content: center;
+}
+.plants-section-title{
+justify-content: center;
+}
+.plants-section-img{
+    margin-top: 49px;
+}
+.plants-money-part{
+    display: block;
+    justify-content: center;
+}
+/* .plants-section-img{
+    width: 270px;
+    height: 48px;
+} */
+ .plants-card-section{
+    width: 153vh;
+    height: 160vh;
+    gap: 3vh;
+ }
+.plants-section-name{
+    justify-content: center;
+    display: flex;
+}
+.plants-section-money{
+    justify-content: center;
+     display: flex;
+}
+.btn-primary{
+    width: 36vh;
+    height: 6.5vh;
+    background-color: #E95A08;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.title-css{
+    width: 36vh;
+}
+.main-plannts-card-section{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+margin: 0 auto;
+gap: 2.5vh;
+width: 153vh;
+height: 175vh;
+justify-content: center;
+}
+/* plants-lover-section-styling */
+.plants-lover-section{
+    /* width: 100%; */
+    height: 80vh;
+    margin-top: 210px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 0px;
+   position: relative;
+   gap: 60px;
+margin-left: 350px;
+}
+.plants-lover-section-img-1{
+
+    width: auto;
+    height: 80vh;
+  width: 72vh;
+z-index: 0.4;
+}
+.plants-lover-section-icon-img{
+    width: 38vh;
+    height: 38vh;
+/* margin-left: 50vh; */
+
+z-index: 1.2;
+position: relative;
+/* margin-bottom: -200px; */
+/* margin-left: 400px; */
+margin-right: -650px;
+margin-top: -1500px;
+margin-bottom: 400px;
+}
+.plants-lover-section-info{
+    margin-top: 100px;
+    width: 72vh;
+    height: 401px;
+    margin-left: 4px;
+    margin-top: -30px;
+
+}
+.plants-lover-section-info-title-2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.plants-lover-section-ul li{
+   margin-bottom: 20px;
+   font-size: 22px;
+   color: #8987A1 
+   ;
 }
