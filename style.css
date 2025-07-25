@@ -12,6 +12,10 @@
  list-style: none;
  color: black;
 }
+.cart{
+    text-decoration: none;
+    color: black;
+}
 .nav-bar-logo{
     font-size: 50px;
     color: #E95A08;
@@ -402,3 +406,147 @@ list-style: none;
 .footer-logo img{
     margin-right: 24px;
 }
+/* styling website for mobile */
+@media screen and (max-width: 576px) {
+    body{
+        width: 576px;
+    }
+    .nav-bar ul li{
+        visibility: hidden;
+    }
+    .nav-bar{
+        width: 361px;
+        height: 38px;
+    }
+    .cart{
+        margin-left: -750px;
+        margin-top: 30px;
+        width: 113px;
+        height: 24px;
+    }
+    .nav-bar-logo{
+        margin-left: -50px;
+        width: 63px;
+        height: 38px;
+    }
+    .banner{
+        margin-top: 300px;
+        width: 361px;
+        height: 147px;
+    
+    }
+    .banner-title{
+        font-size: 24px;
+    }
+    .banner-sub-title{
+        font-size: 14px;
+    }
+    .banner-img{
+        margin-top: -70px;
+        margin-left: -155px;
+        width: 393px;
+        height: 245px;
+    }
+    .banner-info{
+        margin-left: -120px;
+      margin-top: -160px;
+        width: 361px;
+        height: 147px;
+    }
+    .plants-section-title{
+        font-size: 24px;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+    }
+    .plants-section-sub-title{
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+        width: 336px;
+        height: 68px;
+    }
+    .plants-title-subtitle{
+        width: 393px;
+        height: 117px;
+        margin-top: -170px;
+        margin-bottom: 140px;
+    }
+    .main-plannts-card-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 362px;
+    }
+ .plants-section-img{
+    height: 340px;
+    width: 171px;
+ }
+ .plants-section-name{
+    font-size: 16px;
+    font-weight: 400;
+ }
+ .plants-section-money{
+        font-size: 16px;
+    font-weight: 400;
+ }
+
+ .btn-primary{
+    height: 50px;
+    width: 131px;
+    margin-left: 20px;
+ }
+ .main-plannts-card-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+    
+
+.main-plannts-card-section img{
+    width: 170px;
+}
+.plants-lover-section{
+    flex-direction: column;
+}
+.plants-lover-section-icon-img{
+    visibility: hidden;
+}
+.plants-lover-section-img-1{
+    height: 496px;
+    width: 518px;
+   
+    margin-left: 70px;
+}
+.title-css{
+    margin-left: 50px;
+}
+.plants-lover-section-info{
+margin-left: -330px;
+}
+
+.plants-lover-section{
+    margin-top: 300px;
+}
+.plants-lover-section-info-title-2{
+    font-size: 24px;
+    font-weight: bold;
+}
+.plants-lover-section-ul{
+    font-size: 14px;
+}
+
+
+.deals-section{
+    margin-top: 500px;
+}
+
+
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+}
+
+/* styling main part */
