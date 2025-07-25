@@ -443,7 +443,7 @@ list-style: none;
     }
     .banner-img{
         margin-top: -70px;
-        margin-left: -155px;
+        margin-left: -235px;
         width: 393px;
         height: 245px;
     }
@@ -477,6 +477,7 @@ list-style: none;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 362px;
+  
     }
  .plants-section-img{
     height: 340px;
@@ -512,9 +513,9 @@ list-style: none;
     visibility: hidden;
 }
 .plants-lover-section-img-1{
-    height: 496px;
-    width: 518px;
-   
+    height: 396px;
+    width: 370px;
+   margin-top: 690px;
     margin-left: 70px;
 }
 .title-css{
@@ -522,6 +523,8 @@ list-style: none;
 }
 .plants-lover-section-info{
 margin-left: -330px;
+height: 234px;
+width: 361px;
 }
 
 .plants-lover-section{
@@ -537,16 +540,91 @@ margin-left: -330px;
 
 
 .deals-section{
-    margin-top: 500px;
+    margin-top: 900px;
+    width: 393px;
+    height: 117px;
+}
+.deals-section-info-title-p{
+    font-size: 24px;
+  
+    margin-left: 100px;
+}
+.deals-section-info-subtitle{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    width: 336px;
+    height: 68px;
+    margin-left: 120px;
+    margin-top: -60px;
+}
+.deals-section-all-imgdeals-section-all-img-c-1-1{
+    width: 366px;
+    height: 206px;
+    
+}
+.deals-section-all-img-c-1-2{
+     width: 366px;
+    height: 206px;
 }
 
-
-
-
-
+.deals-section-last-img{
+         width: 366px;
+    height: 206px;
+}
+.deals-section-img-container{
+    flex-direction: column;
+    margin-left: -2px;
+    margin-left: 20px;
+}
+.deals-section-last-img-info{
+    margin-left: -100px;
+}
+.deals-section-info{
+    margin-left: -40px;
+}
+.media-stylr-1{
+    margin-left: -520px;
+}
+.media-style-2{
+     margin-left: -120px;
+}
+.media-stylr-2-info{
+    margin-left: -90px;
 }
 
+.deals-section-last-img-info{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+}
 @media screen and (max-width: 576px) {
+    .join-section{
+        margin-top: 800px;
+        height: 276px;
+        width: 566px;
+        margin-left: -10px;
+    }
+    .join-section-input{
+        width: 218px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .join-section-btn{
+        width: 103px;
+        height: 50px;
+        font-size: 16px;
+    }
+    .join-section-title{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .join-section-text{
+        margin-left: -200px;
+   margin-top: -100px;
+   margin-top: 50px;
+    }
 }
 
 /* styling main part */
