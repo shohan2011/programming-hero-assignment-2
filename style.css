@@ -411,10 +411,7 @@ list-style: none;
     body{
         width: 576px;
     }
-   .inter{
-    overflow-x: hidden;
-    width: 100%;
-}
+
     .nav-bar ul li{
         visibility: hidden;
     }
@@ -508,6 +505,9 @@ list-style: none;
  .main-plannts-card-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+   margin-left: -4px;
+   margin-left: 155px;
+
     
  }
     
@@ -525,7 +525,7 @@ list-style: none;
     height: 556px;
     width: 500px;
    margin-top: 780px;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 .title-css{
     margin-left: 50px;
@@ -584,7 +584,7 @@ width: 361px;
 .deals-section-img-container{
     flex-direction: column;
     margin-left: -2px;
-    margin-left: 110px;
+    margin-left: 85px;
 }
 .deals-section-last-img-info{
     margin-left: -100px;
