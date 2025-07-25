@@ -224,7 +224,7 @@ margin-bottom: 400px;
     color: #8987A1;
 }
 .deals-section-all-img-c-1-1{
-    background-image: url(../assets/deal-bloom.png);
+    background-image: url(./assets/deal-bloom.png);
    height: 201px;
    width: 367px;
    margin-bottom: 25px;
@@ -251,7 +251,7 @@ color: white;
     margin-top: 50px;
  }
  .deals-section-all-img-c-1-2{
-background-image: url(../assets/deal-ana.png);
+background-image: url(./assets/deal-ana.png);
 height: 197px;
 width: 367px;
 border-radius: 14px;
@@ -288,7 +288,7 @@ color: white;
     margin-top: 150px;
  }
  .deals-section-last-img{
-    background-image: url(../assets/deal-zabo.png);
+    background-image: url(./assets/deal-zabo.png);
     height: 423px;
     width: 753px;
     border-radius: 14px;
@@ -321,7 +321,7 @@ body{
 }
 /* styling join section */
 .join-section{
-    background-image: url(../assets/news-letter-bg.png);
+    background-image: url(./assets/news-letter-bg.png);
     height: 533px;
     width: 1510px;
     margin-top: 120px;
@@ -505,8 +505,7 @@ list-style: none;
  .main-plannts-card-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-   margin-left: -4px;
-   margin-left: 155px;
+   justify-content: center;
 
     
  }
@@ -525,7 +524,7 @@ list-style: none;
     height: 556px;
     width: 500px;
    margin-top: 780px;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 .title-css{
     margin-left: 50px;
