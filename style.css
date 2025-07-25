@@ -34,6 +34,7 @@ gap: 590px;
     gap: 48px;
 
 }
+
 .nav-bar-ul-div{
     display: flex;
 }
@@ -122,10 +123,7 @@ justify-content: center;
     display: block;
     justify-content: center;
 }
-/* .plants-section-img{
-    width: 270px;
-    height: 48px;
-} */
+
  .plants-card-section{
     width: 153vh;
     height: 160vh;
@@ -155,11 +153,12 @@ justify-content: center;
 .main-plannts-card-section{
     display: grid;
     grid-template-columns: repeat(4,2fr);
-margin: 0 auto;
+
 gap: 2.5vh;
 width: 153vh;
 height: 175vh;
 justify-content: center;
+margin-left: 140PX;
 }
 /* plants-lover-section-styling */
 .plants-lover-section{
@@ -225,7 +224,7 @@ margin-bottom: 400px;
     color: #8987A1;
 }
 .deals-section-all-img-c-1-1{
-    background-image: url(./assets/deal-bloom.png);
+    background-image: url(../assets/deal-bloom.png);
    height: 201px;
    width: 367px;
    margin-bottom: 25px;
@@ -246,15 +245,13 @@ color: white;
  .deals-section-all-img-c-1-1-info{
     height: 500px;
     width: 350px;
-    /* justify-content: center;
-    align-items: center; */
     vertical-align: middle;
     display: inline-table;
     margin-left: 80px;
     margin-top: 50px;
  }
  .deals-section-all-img-c-1-2{
-background-image: url(./assets/deal-ana.png);
+background-image: url(../assets/deal-ana.png);
 height: 197px;
 width: 367px;
 border-radius: 14px;
@@ -291,7 +288,7 @@ color: white;
     margin-top: 150px;
  }
  .deals-section-last-img{
-    background-image: url(./assets/deal-zabo.png);
+    background-image: url(../assets/deal-zabo.png);
     height: 423px;
     width: 753px;
     border-radius: 14px;
@@ -319,11 +316,14 @@ color: white;
 .deals-section-info{
     margin-top: 133px;
 }
+body{
+    overflow-x: hidden;
+}
 /* styling join section */
 .join-section{
-    background-image: url(./assets/news-letter-bg.png);
+    background-image: url(../assets/news-letter-bg.png);
     height: 533px;
-    width: 1500px;
+    width: 1510px;
     margin-top: 120px;
 }
 .join-section-input{
@@ -411,12 +411,17 @@ list-style: none;
     body{
         width: 576px;
     }
+   .inter{
+    overflow-x: hidden;
+    width: 100%;
+}
     .nav-bar ul li{
         visibility: hidden;
     }
     .nav-bar{
-        width: 361px;
+        width: 561px;
         height: 38px;
+ 
     }
     .cart{
         margin-left: -750px;
@@ -613,6 +618,10 @@ body{
         width: 566px;
         margin-left: -10px;
     }
+    .nav-bar-cart{
+    margin-left: 150px;
+    margin-right: -100px;
+}
     .join-section-input{
         width: 218px;
         height: 50px;
@@ -633,9 +642,7 @@ body{
    margin-top: -100px;
    margin-top: 50px;
     }
-}
-@media screen and (max-width: 576px) {
-    .footer-section{
+        .footer-section{
         flex-direction: column;
         margin-left: -10px;
     }
